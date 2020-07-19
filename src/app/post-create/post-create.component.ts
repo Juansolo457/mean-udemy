@@ -10,9 +10,11 @@ export class PostCreateComponent  {
   newPost2 = 'No Content'; 
 
 
-  onAddPost(){
+  onAddPost(postInput: HTMLTextAreaElement){
+    console.log(postInput);
     alert('post added');
-    this.newPost = 'The user\'s post'
+    //this.newPost = 'The user\'s post'
+    this.newPost2 = postInput.value
   }
 
 
