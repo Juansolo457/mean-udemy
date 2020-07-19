@@ -1,0 +1,9 @@
+<textarea rows="6"value="Test">{{newPost2}}</textarea>
+<textarea rows="6" [value]="newPost2"></textarea>
+
+<!-- NOTE! : property binding from the comp to the template and template to comp 
+() temp to comp, [] comp to temp!  you can use vars and such this way 
+as well. -->
+<hr>
+<button (click)="onAddPost()">save posts</button>
+<p>{{ newPost }}</p>
