@@ -19,7 +19,7 @@ export class PostCreateComponent  {
   // }
 
   onAddPost(){
-    this.newPost2 = this.enteredValue;
+    this.newPost = this.enteredValue;
   }
 
 
