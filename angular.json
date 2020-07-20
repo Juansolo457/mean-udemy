@@ -129,6 +129,10 @@
   },
   "defaultProject": "mean-udemy",
   "cli": {
+<<<<<<< HEAD
+    "analytics": "153e1c93-0930-44d8-a3d5-8de7b61414b7"
+=======
     "analytics": false
+>>>>>>> ff5760a37c80ce737eba11dff5960cd1b9d06838
   }
 }
