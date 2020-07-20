@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+//jj 
+adding ng material: 
+npm install --save @angular/material  --1 way to add. 
+cli 6+ 
+ng add @angular/material -- pre configs your proj to include it! 
+>adds files to package.json 
+ng material and ng/cdk 
+
+note that imports after version 9 on ng material are slightly 
+different. the docs have the api import correct. 
+check app.module that has the right way to import them..
